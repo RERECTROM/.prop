@@ -1,0 +1,52 @@
+# ==========================================
+#   build.prop - Sistema Android CGL AOSP
+# ==========================================
+
+# --- Identificação do produto ---
+ro.product.manufacturer=ChaGas Llc
+ro.product.brand=CGL
+ro.product.model=CGL Chagas Galaxy K1S
+ro.product.device=cgl_k1s
+ro.product.name=cgl_k1s
+ro.build.product=cgl_k1s
+
+# --- Versão do sistema ---
+ro.build.id=CGLK1S.2025
+ro.build.display.id=CGL_AOSP_1.0
+ro.build.version.incremental=1
+ro.build.version.release=13
+ro.build.version.sdk=33
+ro.build.type=user
+ro.build.tags=release-keys
+
+# --- Idioma e região ---
+ro.product.locale.language=pt
+ro.product.locale.region=BR
+persist.sys.locale=pt-BR
+persist.sys.language=pt
+persist.sys.country=BR
+
+# --- Desempenho e otimização ---
+ro.config.low_ram=false
+dalvik.vm.heapsize=512m
+ro.sf.lcd_density=420
+debug.hwui.render_dirty_regions=false
+persist.sys.ui.hw=1
+
+# --- Rede e rádio ---
+ro.telephony.default_network=9,9
+persist.radio.multisim.config=dsds
+persist.vendor.radio.apm_sim_not_pwdn=1
+
+# --- Interface e animações ---
+window.animation_scale=1.0
+transition.animation_scale=1.0
+animator.duration_scale=1.0
+persist.sys.theme.darkmode=true
+
+# --- Informações adicionais ---
+ro.build.description=CGL_K1S-user 13 CGL_AOSP_1.0 release-keys
+ro.build.fingerprint=CGL/CGL_K1S/CGL_K1S:13/CGL_AOSP_1.0/2025:user/release-keys
+ro.chaGas.signature=by CGL Team
+ro.chaGas.version=1.0
+ro.chaGas.codename=Galaxy_K1S
